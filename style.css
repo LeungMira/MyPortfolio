@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  height: 100vh;
+  background: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+canvas {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+/* Main Section */
+main {
+  text-align: center;
+  background-color: rgb(12, 12, 12);
+  padding: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  background-color: #222222;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Skills Section */
+.skills {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  background-color: #464646;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.circle {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  background: conic-gradient(#66b3ff 0% 90%, #e0e0e0 90%);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-circle {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  background: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.skill-name {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #555;
+}
+
+/* About Section */
+.about {
+  background-color: #464646;
+  padding: 20px;
+  border-radius: 10px;
+  color: #333;
+}
